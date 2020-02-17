@@ -1,0 +1,187 @@
+<!DOCTYPE html> 											<!--Accsesible element, version of html, also put the lenguage-->
+<html>
+	<head>
+		<title>
+		First Page
+		</title>
+		<meta charset="UTF-8"/>		
+	</head>
+	<body>
+		<h1>
+		Title of the page
+		</h1>
+		<ul>
+			<li>
+				One
+			</li>
+			<li>
+				Two
+			</li>
+		</ul>											<!--Block elements-->
+		<ol>
+			<li>
+				One
+			</li>
+			<li>
+				Two
+			</li>
+		</ol>
+		
+		<p>
+		Your paragraph
+		</p>												<!--Block element-->
+
+		<a href="/www.google.com" target="_blank">
+			Link!!
+		</a>												<!--In-Line element-->
+
+		<form>
+			<fieldset>
+				<legend>
+					Title of form
+				</legend>
+				<div>
+					<label for="username">
+						Username:
+					</label>									<!--In-Line element-->
+					<input type="text" id="username" class="test" name="user" value="text"/>							<!--In-Line element-->
+				</div>
+				<div>
+					<label for="password">
+						Password:
+					</label>
+					<input type="password" id="password"/>
+				</div>
+				<div>
+					<label for="gender-male">
+						Male
+					</label>
+					<input type="radio" id="gender-male" name="gender" value="m"/>
+				</div>
+				<div>
+					<label for="gender-female">
+						Female
+					</label>
+					<input type="radio" id="gender-female" name="gender" value="f"/>
+				</div>
+				<div>
+					<label for="number">
+						Number:
+					</label>								<!--In-line element, accesible element-->
+					<input type="number" id="number"/>		<!--checkbox, email, tel, number, date-->
+				</div>
+				<div>
+					<select name="country">
+						<option value="MX">
+							Mexico
+						</option>
+						<option value="FR">
+							France
+						</option>
+					</select>										<!--In-line element-->
+				</div>
+				<div>
+					<label for="textArea">
+					</label>
+					<textarea id="textArea" value="textArea">
+					</textarea>										<!--In-line element-->
+				</div>
+				<div>
+					<button type="submit">
+						Submit
+					</button>								<!--In-line element-->
+					<input type="submit" value="submit"/>	<!--In-line element-->
+				</div>										<!--block element-->
+			</fieldset>
+		</form>												<!--Block element-->
+
+		<table>
+			<thead>
+				<tr>
+					<th>
+						One
+					</th>
+					<th>
+						Two
+					</th>
+				</tr>
+			</thead>										<!--Accesible element-->
+			<tbody>
+				<tr>
+					<td>
+						1
+					</td>
+					<td>
+						2
+					</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						4
+					</td>
+				</tr>
+			</tbody>										<!--Accesible element-->
+			<tfoot>
+			</tfoot>										<!--Accesible element-->
+		</table>											<!--Block element-->
+
+		<img src="./img/telosico.png" alt='Test image'/> 	<!--Accesible elements, element in-line-->
+	</body>
+</html>
+
+<!--Attributes rules
+	-Never begin with a number
+	-Should begin with a lower case letter
+	-It can be followed by a-z, A-Z, 0-9,_-
+-->
+
+<!--
+	Use the same name on values you want to group, like gender or a checkbox
+-->
+
+<!--Block elements
+	-p
+	-h
+	-ul ol
+	-form
+	-div
+	-table
+	-div
+	-header
+	-sectim
+	-article
+	-address
+	-footer
+	-main
+	-nav
+-->
+
+<!--In-Line elements
+	-img
+	-a
+	-input
+	-label
+	-button
+	-select
+	-textArea
+	-span
+-->
+
+<!--Accesible elements
+	-!DOCTYPE html
+	-img src=path alt=""
+	-label
+	-main
+	-header
+	-tbody
+	-thead
+	-tfoot
+	-section
+	-footer
+	-article
+	-address
+	-nav
+-->
