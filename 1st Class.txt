@@ -1,0 +1,5 @@
+<!DOCTYPE html>	-- Accessibility shows to the browser the type of html you are using 
+
+/
+./ recommended for specific files, like images
+../ goes back one level 
